@@ -1,0 +1,32 @@
+{
+    "name": "comodojo/comodojo.gui",
+    "description": "A GUI for the Comodojo Framework",
+    "license": "GPL-3.0+",
+    "keywords": [],
+    "homepage": "https://comodojo.org",
+     "support": {
+        "issues": "https://github.com/comodojo/comodojo.gui/issues"
+    },
+    "authors": [
+        {
+            "name": "Marco Giovinazzi",
+            "email": "marco.giovinazzi@comodojo.org",
+            "homepage": "http://jme.altervista.org"
+        },
+        {
+            "name": "Marco Castiello",
+            "email": "marco.castiello@gmail.com"
+        }
+    ],
+    "autoload": {},
+    "require": {
+        "php": ">=5.6.0",
+        "bower-asset/jquery": "^2.1",
+        "bower-asset/bootstrap": "3.3.*",
+        "bower-asset/moment": "2.10.*",
+        "bower-asset/jqueryui": "1.11.*",
+        "bower-asset/backbone": "1.2.*",
+        "bower-asset/underscore": "1.8.*",
+        "bower-asset/md5": "0.3.*"
+    }
+}
