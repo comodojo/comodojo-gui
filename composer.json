@@ -1,6 +1,7 @@
 {
     "name": "comodojo/comodojo-gui",
     "description": "A GUI for the Comodojo Framework",
+    "type": "comodojo-components",
     "license": "GPL-3.0+",
     "keywords": [],
     "homepage": "https://comodojo.org",
@@ -18,7 +19,14 @@
             "email": "marco.castiello@gmail.com"
         }
     ],
-    "autoload": {},
+    "extra": {
+        "comodojo-theme-register": {
+            "comodojo": {
+                "description": "Default comodojo theme",
+                "assets": "theme/assets"
+            }
+        }
+    },
     "require": {
         "php": ">=5.6.0",
         "bower-asset/jquery": "^2.1",
